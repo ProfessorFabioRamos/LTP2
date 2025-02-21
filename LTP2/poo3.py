@@ -18,4 +18,3 @@ class Boss(Enemy):
 enemy1 = Enemy('Goblin', 50, 10, 0)
 boss1 = Boss('Saga',1000,500,200,500)    
 boss1.attack()   
-boss1.super().attack() 
