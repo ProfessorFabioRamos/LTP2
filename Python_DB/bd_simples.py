@@ -16,6 +16,7 @@ cursor.execute("""
 # Inserindo um cliente
 cursor.execute("INSERT INTO clientes (nome,email,idade) VALUES(?,?,?)",
                ("Carlos Abreu","carlos@email.com", 40))
+#cursor.execute("INSERT INTO clientes (nome,email,idade) VALUES('Carlos Abreu','carlos@ema!.com.br', 40)")
 
 conexao.commit()
 conexao.close()
