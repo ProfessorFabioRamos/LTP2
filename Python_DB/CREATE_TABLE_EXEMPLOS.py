@@ -16,7 +16,7 @@ CREATE TABLE IF NOT EXISTS pedidos(
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS log_acessos(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    usuario TEXT NOY NULL,
+    usuario TEXT NOT NULL,
     data_hora TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 )           
 """)
