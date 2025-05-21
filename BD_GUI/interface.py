@@ -43,7 +43,8 @@ def iniciar_interface():
         else:
             messagebox.showinfo("Sucesso",f"Produto com ID {id_produto} excluído")
         entry_id.delete(0,tk.END)
-
+        listar()
+        
     # Widgets
     tk.Label(root,text = "Nome do produto:").pack(pady=10)
     entry_nome = tk.Entry(root)
