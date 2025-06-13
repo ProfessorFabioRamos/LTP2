@@ -37,7 +37,7 @@ class InventarioApp(QWidget):
       self.lista.addItem(f"{item[1]} - Quantidade: {item[2]}")
       
 if __name__ == "__main__":
-app = QApplication(sys.argv)
-janela = InventarioApp()
-janela.show()
-sys.exit(app.exec_())
+  app = QApplication(sys.argv)
+  janela = InventarioApp()
+  janela.show()
+  sys.exit(app.exec_())
